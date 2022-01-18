@@ -13,7 +13,7 @@ peer.on('open', function(id) {
 peer.on('call', function(call) {
   call.answer(sink.stream);
   call.on('stream', function(stream) {
-    console.log(`dummy oscillator stream : ${stream}, painful to ears, please ignore, its just a work around`);
+    console.log('dummy oscillator stream');
   });
 });
 console.log(peer);
