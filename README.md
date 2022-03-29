@@ -1,1 +1,1 @@
-# Chrome(ium) Audio Graph : made using webRTC and web audio api
+# Chrome(ium) Audio Graph : made using PeerJS and web audio api
